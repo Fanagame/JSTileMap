@@ -296,10 +296,10 @@
 {
 	NSInteger idx = coord.x + coord.y * _layerGridSize.width;
 	
-    if (idx < (_layerGridSize.width * _layerGridSize.height)) {
-        NSLog(@"index %d out of bounds! (%f)", idx, _layerGridSize.width * _layerGridSize.height);
-    }
-        
+//    if (idx < (_layerGridSize.width * _layerGridSize.height)) {
+//        NSLog(@"index %d out of bounds! (%f)", idx, _layerGridSize.width * _layerGridSize.height);
+//    }
+    
 	return _tiles[ idx ];
 }
 
